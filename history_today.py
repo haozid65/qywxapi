@@ -12,6 +12,6 @@ now_date = now_mouth + "/" + now_day
 
 
 url = "http://v.juhe.cn/todayOnhistory/queryEvent.php"
-data = {"key": "acfcb3484c56ee390e359f9df121b2a4", "date": now_date}
+data = {"key": "acfcb3484c56ee390e359f9df121b2a4", "date": "5/5"}
 res = requests.get(url, data)
 print(res.json())
